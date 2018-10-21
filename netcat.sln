@@ -7,16 +7,28 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "netcat", "netcat\netcat.vcx
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug (with -e option)|x64 = Debug (with -e option)|x64
+		Debug (with -e option)|x86 = Debug (with -e option)|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release (with -e option)|x64 = Release (with -e option)|x64
+		Release (with -e option)|x86 = Release (with -e option)|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug (with -e option)|x64.ActiveCfg = Debug (with -e option)|x64
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug (with -e option)|x64.Build.0 = Debug (with -e option)|x64
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug (with -e option)|x86.ActiveCfg = Debug (with -e option)|Win32
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug (with -e option)|x86.Build.0 = Debug (with -e option)|Win32
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug|x64.ActiveCfg = Debug|x64
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug|x64.Build.0 = Debug|x64
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug|x86.ActiveCfg = Debug|Win32
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Debug|x86.Build.0 = Debug|Win32
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release (with -e option)|x64.ActiveCfg = Release (with -e option)|x64
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release (with -e option)|x64.Build.0 = Release (with -e option)|x64
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release (with -e option)|x86.ActiveCfg = Release (with -e option)|Win32
+		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release (with -e option)|x86.Build.0 = Release (with -e option)|Win32
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release|x64.ActiveCfg = Release|x64
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release|x64.Build.0 = Release|x64
 		{4B60F044-BAA7-43A0-94FF-2029EAB0C89D}.Release|x86.ActiveCfg = Release|Win32

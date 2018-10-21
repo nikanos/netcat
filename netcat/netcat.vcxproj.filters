@@ -13,5 +13,38 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Readme Files">
+      <UniqueIdentifier>{51ff9409-557e-4663-9fc2-7b884bc3ca74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="doexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netcat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="hobbit.txt">
+      <Filter>Readme Files</Filter>
+    </Text>
+    <Text Include="license.txt">
+      <Filter>Readme Files</Filter>
+    </Text>
+    <Text Include="readme.txt">
+      <Filter>Readme Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
